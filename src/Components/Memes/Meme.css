@@ -1,0 +1,43 @@
+.hoverStyle {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  .hoverStyle:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  .button {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .35s ease;
+    margin-top: -70px;
+    margin-left: 160px;
+  }
+  
+  .button button {
+    width: 50px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+  }
+  .button button:hover{
+      color: cyan;
+  }
+  
+  .hoverStyle:hover .button {
+    opacity: 1;
+  }

@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    text-align: center;
+}
+a h1{
+    color: black;
+}
+a h1:hover{
+    color: chartreuse;
+    font-weight: 700;
+}
+a h3:hover{
+    color: chartreuse;
+    font-weight: 700;
+}
+form{
+    margin: 50px 0 50px 0;
+}
+form .link{
+    width: 500px;
+}
+form .uploadFile{
+    width: 105px;
+    margin-left: 30px;
+    margin-right: 310px;
+}
+form .submitButton{
+    font-weight: 700;
+}
+.sub-footer{
+    margin-top: 50px;
+    padding: 15px 0 5px 0;
+}
